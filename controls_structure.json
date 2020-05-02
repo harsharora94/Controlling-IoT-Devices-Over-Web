@@ -1,0 +1,20 @@
+[{
+	"name": "Switch 1",
+	"type": "switch",
+	"source": {"type":"thingspeak_channel", "field":1, "readKey":"", "writeKey":""}
+},
+{
+	"name": "Switch 2",
+	"type": "switch",
+	"source": {"type":"thingspeak_channel", "field":2, "readKey":"", "writeKey":""}
+},
+{
+	"name": "Input 1",
+	"type": "input",
+	"source": {"type":"thingspeak_channel", "field":3, "readKey":"", "writeKey":""}
+},
+{
+	"name": "Iframe 1",
+	"type": "iframe",
+	"source": {"url":"", "height":260, "width":450}
+}]

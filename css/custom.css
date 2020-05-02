@@ -1,0 +1,25 @@
+/* Show navbar fixed to the top */
+body {
+  padding-top: 4.5rem;
+}
+
+/* Control toggle style */
+.control_toggle {
+  text-align: center;
+}
+
+/* Customize Bootstrap card columns */
+.card-columns {
+  @include media-breakpoint-only(sm) {
+    column-count: 1;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 3;
+  }
+}
